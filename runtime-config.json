@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "releaseChannel": "local",
+  "extensionModePolicy": "local_only_locked",
+  "apiEnabled": false,
+  "publicFeedbackEnabled": true,
+  "publicFeedbackUrl": "https://gettabsy.live/api/public-feedback",
+  "latestVersion": "0.1.0-beta.1",
+  "chromeWebStoreEnabled": true,
+  "chromeWebStoreExtensionId": "odkfklbpefpjipldihmekgnmgpflemjj",
+  "chromeWebStoreUrl": "https://chromewebstore.google.com/detail/tabsy/odkfklbpefpjipldihmekgnmgpflemjj",
+  "featureFlags": {
+    "extensionLocalOnlyMode": true
+  },
+  "announcements": [
+    {
+      "id": "chrome-store-available-local",
+      "target": "landing",
+      "surface": "banner",
+      "enabled": true,
+      "severity": "success",
+      "title": "Tabsy is available in the Chrome Web Store",
+      "message": "Install Tabsy from the official Chrome Web Store listing.",
+      "dismissible": true,
+      "translations": {
+        "ru": {
+          "title": "Tabsy доступен в Chrome Web Store",
+          "message": "Установите Tabsy с официальной страницы Chrome Web Store.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "en": {
+          "title": "Tabsy is available in the Chrome Web Store",
+          "message": "Install Tabsy from the official Chrome Web Store listing.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "ko": {
+          "title": "Chrome Web Store에서 Tabsy를 이용할 수 있습니다",
+          "message": "공식 Chrome Web Store 등록 페이지에서 Tabsy를 설치하세요.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "de": {
+          "title": "Tabsy ist im Chrome Web Store verfügbar",
+          "message": "Installiere Tabsy über den offiziellen Eintrag im Chrome Web Store.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "fr": {
+          "title": "Tabsy est disponible sur le Chrome Web Store",
+          "message": "Installez Tabsy depuis sa fiche officielle sur le Chrome Web Store.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "es-MX": {
+          "title": "Tabsy está disponible en Chrome Web Store",
+          "message": "Instala Tabsy desde la ficha oficial de Chrome Web Store.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "id": {
+          "title": "Tabsy tersedia di Chrome Web Store",
+          "message": "Instal Tabsy dari listing resmi di Chrome Web Store.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "zh-CN": {
+          "title": "Tabsy 已在 Chrome Web Store 上线",
+          "message": "从 Chrome Web Store 官方页面安装 Tabsy。",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "pt-BR": {
+          "title": "Tabsy está disponível na Chrome Web Store",
+          "message": "Instale o Tabsy pela página oficial na Chrome Web Store.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "tr": {
+          "title": "Tabsy Chrome Web Store’da mevcut",
+          "message": "Tabsy’yi resmi Chrome Web Store sayfasından yükleyin.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "th": {
+          "title": "Tabsy พร้อมใช้งานบน Chrome Web Store แล้ว",
+          "message": "ติดตั้ง Tabsy จากหน้ารายการอย่างเป็นทางการใน Chrome Web Store",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "en-GB": {
+          "title": "Tabsy is available in the Chrome Web Store",
+          "message": "Install Tabsy from the official Chrome Web Store listing.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "ja": {
+          "title": "Tabsy が Chrome Web Store で利用可能になりました",
+          "message": "公式の Chrome Web Store 掲載ページから Tabsy をインストールしてください。",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "hi": {
+          "title": "Tabsy Chrome Web Store पर उपलब्ध है",
+          "message": "Tabsy को आधिकारिक Chrome Web Store लिस्टिंग से इंस्टॉल करें।",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "bn": {
+          "title": "Tabsy Chrome Web Store-এ উপলভ্য",
+          "message": "অফিসিয়াল Chrome Web Store তালিকা থেকে Tabsy ইনস্টল করুন।",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        },
+        "ar": {
+          "title": "Tabsy متاح في Chrome Web Store",
+          "message": "ثبّت Tabsy من صفحته الرسمية في Chrome Web Store.",
+          "actions": {
+            "chromeStore": "Chrome Web Store"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "chromeStore",
+          "type": "open_url",
+          "label": "Chrome Web Store",
+          "url": "https://chromewebstore.google.com/detail/tabsy/odkfklbpefpjipldihmekgnmgpflemjj"
+        }
+      ]
+    },
+    {
+      "id": "extension-local-mode-beta-local",
+      "target": "extension",
+      "surface": "toast",
+      "audience": "all",
+      "enabled": true,
+      "severity": "info",
+      "title": "Local mode beta",
+      "message": "Cloud sync is not enabled yet. Your bookmarks and tabs stay local for this beta build.",
+      "dismissible": true,
+      "translations": {
+        "ru": {
+          "title": "Локальный режим беты",
+          "message": "Облачная синхронизация пока не включена. В этой бета-сборке ваши закладки и вкладки остаются локально.",
+          "actions": {
+            "dismiss": "Понятно"
+          }
+        },
+        "en": {
+          "title": "Local mode beta",
+          "message": "Cloud sync is not enabled yet. Your bookmarks and tabs stay local for this beta build.",
+          "actions": {
+            "dismiss": "OK"
+          }
+        },
+        "ko": {
+          "title": "로컬 모드 베타",
+          "message": "클라우드 동기화는 아직 활성화되지 않았습니다. 이 베타 빌드에서는 북마크와 탭이 로컬에 저장됩니다.",
+          "actions": {
+            "dismiss": "확인"
+          }
+        },
+        "de": {
+          "title": "Lokaler Betamodus",
+          "message": "Cloud-Synchronisierung ist noch nicht aktiviert. Ihre Lesezeichen und Tabs bleiben in dieser Beta-Version lokal.",
+          "actions": {
+            "dismiss": "Schließen"
+          }
+        },
+        "fr": {
+          "title": "Bêta du mode local",
+          "message": "La synchronisation cloud n'est pas encore activée. Vos favoris et vos onglets restent locaux pour cette version bêta.",
+          "actions": {
+            "dismiss": "Fermer"
+          }
+        },
+        "es-MX": {
+          "title": "Beta en modo local",
+          "message": "La sincronización en la nube aún no está habilitada. Tus marcadores y pestañas permanecen locales para esta versión beta.",
+          "actions": {
+            "dismiss": "Cerrar"
+          }
+        },
+        "id": {
+          "title": "Mode lokal beta",
+          "message": "Sinkronisasi cloud belum diaktifkan. Penanda dan tab Anda tetap disimpan secara lokal pada build beta ini.",
+          "actions": {
+            "dismiss": "Tutup"
+          }
+        },
+        "zh-CN": {
+          "title": "本地模式测试版",
+          "message": "云同步尚未启用。此测试版中的书签和标签页将保留在本地。",
+          "actions": {
+            "dismiss": "关闭"
+          }
+        },
+        "pt-BR": {
+          "title": "Modo local beta",
+          "message": "A sincronização em nuvem ainda não está habilitada. Seus favoritos e abas permanecem locais nesta build beta.",
+          "actions": {
+            "dismiss": "Fechar"
+          }
+        },
+        "tr": {
+          "title": "Yerel mod beta",
+          "message": "Bulut senkronizasyonu henüz etkinleştirilmedi. Yer imleri ve sekmeleriniz bu beta sürümü için yerel olarak kalır.",
+          "actions": {
+            "dismiss": "Kapat"
+          }
+        },
+        "th": {
+          "title": "โหมดท้องถิ่นเบต้า",
+          "message": "การซิงค์คลาวด์ยังไม่เปิดใช้งาน ข้อมูลบุ๊กมาร์กและแท็บของคุณยังคงอยู่ในเครื่องสำหรับรุ่นเบต้านี้",
+          "actions": {
+            "dismiss": "ปิด"
+          }
+        },
+        "en-GB": {
+          "title": "Local mode beta",
+          "message": "Cloud sync is not enabled yet. Your bookmarks and tabs stay local for this beta build.",
+          "actions": {
+            "dismiss": "OK"
+          }
+        },
+        "ja": {
+          "title": "ローカルモードベータ",
+          "message": "クラウド同期はまだ有効になっていません。ブックマークとタブはこのベータ版ではローカルに保存されます。",
+          "actions": {
+            "dismiss": "閉じる"
+          }
+        },
+        "hi": {
+          "title": "लोकल मोड बीटा",
+          "message": "क्लाउड सिंक अभी चालू नहीं है। इस बीटा बिल्ड में आपके बुकमार्क और टैब डिवाइस पर ही रहते हैं।",
+          "actions": {
+            "dismiss": "ठीक है"
+          }
+        },
+        "bn": {
+          "title": "লোকাল মোড বিটা",
+          "message": "ক্লাউড সিঙ্ক এখনো চালু নয়। এই বিটা বিল্ডে আপনার বুকমার্ক ও ট্যাব লোকালই থাকবে।",
+          "actions": {
+            "dismiss": "বুঝেছি"
+          }
+        },
+        "ar": {
+          "title": "وضع التخزين المحلي (تجريبي)",
+          "message": "مزامنة السحابة غير مفعّلة بعد. في هذا الإصدار التجريبي تبقى الإشارات المرجعية والتبويبات محليًا على جهازك.",
+          "actions": {
+            "dismiss": "حسنًا"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "dismiss",
+          "type": "dismiss",
+          "label": "OK"
+        }
+      ]
+    },
+    {
+      "id": "migrate-zip-to-chrome-web-store-2026-05-local",
+      "target": "extension",
+      "surface": "toast",
+      "audience": "non_chrome_web_store_extension",
+      "enabled": false,
+      "severity": "info",
+      "title": "Move to the official Chrome Web Store version",
+      "message": "If you installed the ZIP beta, export your data, install Tabsy from Chrome Web Store, and import the JSON file back.",
+      "dismissible": true,
+      "translations": {
+        "ru": {
+          "title": "Перейдите на официальную версию из Chrome Web Store",
+          "message": "Если вы устанавливали ZIP-бету, экспортируйте данные, установите Tabsy из Chrome Web Store и импортируйте JSON-файл обратно.",
+          "actions": {
+            "migrationGuide": "Открыть инструкцию"
+          }
+        },
+        "en": {
+          "title": "Move to the official Chrome Web Store version",
+          "message": "If you installed the ZIP beta, export your data, install Tabsy from Chrome Web Store, and import the JSON file back.",
+          "actions": {
+            "migrationGuide": "Open guide"
+          }
+        },
+        "ko": {
+          "title": "공식 Chrome Web Store 버전으로 이전하세요",
+          "message": "ZIP 베타를 설치했다면 데이터를 내보내고, Chrome Web Store에서 Tabsy를 설치한 뒤 JSON 파일을 다시 가져오세요.",
+          "actions": {
+            "migrationGuide": "가이드 열기"
+          }
+        }
+      },
+      "actions": [
+        {
+          "id": "migrationGuide",
+          "type": "open_url",
+          "label": "Open guide",
+          "url": "https://gettabsy.live/install#zip-migration"
+        }
+      ]
+    }
+  ],
+  "maintenance": {
+    "enabled": false,
+    "message": ""
+  }
+}
